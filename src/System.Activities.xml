@@ -10974,5 +10974,11 @@ A <see cref="T:System.WorkflowModel.InArgument`1" /> that contains the <see cref
       <param name="value">The object to convert.</param>
       <param name="destinationType">The type to convert to.</param>
     </member>
+    <member name="M:System.Activities.WorkflowApplication.AddInitialInstanceValues(System.Collections.Generic.IDictionary{System.Xml.Linq.XName, object})">
+      <summary>
+        Specifies instance metadata values that are included with the first persistence of a new instance.
+      </summary>
+      <param name="writeOnlyValues">The metadata values to be included with the first persistence.</param>
+    </member>
   </members>
 </doc>

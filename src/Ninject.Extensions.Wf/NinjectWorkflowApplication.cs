@@ -463,5 +463,11 @@ namespace Ninject.Extensions.Wf
         {
             this.AddSingletonExtension<ActivityDependencyInjection>();
         }
+
+        /// <inheritdoc />
+        public void AddInitialInstanceValues(IDictionary<System.Xml.Linq.XName, object> writeOnlyValues)
+        {
+            this.Application.AddInitialInstanceValues(writeOnlyValues);
+        }
     }
 }

@@ -195,6 +195,9 @@ namespace Ninject.Extensions.Wf
         /// <include file='../System.Activities.xml' path='/doc/members/member[@name="M:System.Activities.WorkflowApplication.BeginResumeBookmark(System.Activities.Bookmark,System.Object,System.TimeSpan,System.AsyncCallback,System.Object)"]/*' />
         IAsyncResult BeginResumeBookmark(Bookmark bookmark, object value, TimeSpan timeout,
                                                          AsyncCallback callback, object state);
+
+        /// <include file='../System.Activities.xml' path='/doc/members/member[@name="M:System.Activities.WorkflowApplication.AddInitialInstanceValues(System.Collections.Generic.IDictionary{System.Xml.Linq.XName, object})"]/*' />
+        void AddInitialInstanceValues(IDictionary<System.Xml.Linq.XName, object> writeOnlyValues);
 #pragma warning restore 1584,1658
     }
 }
