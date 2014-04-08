@@ -26,6 +26,7 @@
 				<include name="System.Activities.dll"/>
 				<include name="System.Runtime.DurableInstancing.dll"/>
 				<include name="System.Core.dll"/>
+				<include name="System.Xml.Linq.dll"/>
 				<include name="${path.lib}/Ninject/${build.platform}/Ninject.dll"/>
 			</references>
 		</csc>
